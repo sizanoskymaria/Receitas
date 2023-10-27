@@ -2,10 +2,12 @@
 @Autor: Ninguem
  */
  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@400;500&display=swap');
 
- body {
+#tudo {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.918);
+    background-color: rgb(255, 255, 255);
+    margin-left: 40px;
 }
 
 #titulo {
@@ -22,28 +24,73 @@ img {
     }
 
     #subtitulo{
-        color: #ecaf05;
+        color: #e3753a;
         font-size: 16px;
         font-family: "AKG Verdana";
         text-align: center;
+        margin-bottom: 0px;
+        margin-top: 0px;
     }
 
-#rodape{
+#subtitulo\ 2{
     font-family: "Abril Fatface" , cursive ;
-font-size: 18px;
-text-align: end;
-color: #e6be52;
+    font-size: 28px;
+    text-align: left;
+    color: #ecc905;
+    margin-bottom: 0px;
 }
 
-#subtitulo\2{
-    font-size: 30px;
+#subtitulo\ 3 {
+    font-family: "Abril Fatface" , cursive ;
+    font-size: 25px;
+    text-align: center;
+    color: #ec9b05;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#historia{
+    font-family: "Roboto";
+    font-size: 22px;
+    color: #e8cf46;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+#texto{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #4b4949;
+    text-align: left;
+    margin-right: 606px;
+}
+
+#ingredientes{
+    font-family: "Roboto";
+    font-size: 21px;
     text-align: left;
     color: #ecc905;
 }
 
-#subtitulo\3{
+#texto2{
+    font-family: "Roboto";
+    font-size: 22px;
+    text-align: left;
+    color: #ec9b05;
+    margin-bottom: 0px;
+}
+
+#ingredientes2{
+    font-family: "Roboto";
+    text-align: left;
+    font-size: 18px;
+    color: #4b4949;
+}
+
+#rodape{
     font-family: "Abril Fatface" , cursive ;
-    font-size: 20px;
-    text-align: center;
-    color: #ecc905;
+    font-size: 18px;
+    text-align: end;
+    color: #e6be52;
 }
