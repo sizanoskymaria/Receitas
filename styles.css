@@ -4,7 +4,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@400;500&display=swap');
 
-#tudo {
+ #tudo {
     text-align: center;
     background-color: rgb(255, 255, 255);
     margin-left: 40px;
@@ -86,6 +86,22 @@ img {
     text-align: left;
     font-size: 18px;
     color: #4b4949;
+}
+
+#instruções{
+    font-family: "Roboto";
+    font-size: 21px;
+    text-align: left;
+    color: #ecc905;
+}
+
+#instruções2{
+    font-family: "Roboto";
+    text-align: left;
+    font-size: 18px;
+    color: #4b4949;
+    margin-right: 596px;
+
 }
 
 #rodape{
